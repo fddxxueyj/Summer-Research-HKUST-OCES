@@ -10,5 +10,5 @@ The model is constructed based on the library `NeuralOperator`. The key hyperpar
 
 ## 1.2 Training Stretagy
 
-The first 295 runs are chosen as the training dataset and the last 5 runs are the testing dataset. We only use the numerical results after 3-years iteration in order to ensure the flow fully develops into eddy state. The experiments have shown that if the data in the developing state are contained into the training set, the FNO cannot be trained, which is quit different from training CNN. 
+The first 295 runs are chosen as the training dataset and the last 5 runs are the testing dataset. We only use the numerical results after 3-years iteration in order to ensure the flow fully develops into eddy state. The experiments have shown that if the data in the developing state are contained into the training set, the FNO cannot be trained, which is quit different from training CNN. The approach is in line with Victor Mangeleer's work, where he train the 
 
