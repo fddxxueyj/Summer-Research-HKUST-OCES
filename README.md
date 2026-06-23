@@ -14,6 +14,12 @@ The first 295 runs are chosen as the training dataset and the last 5 runs are th
 
 ## 1.3 Offline Testing
 
-Two metrics are chosen, pearson correlation and the coefficient of determination $R^2$. 
+Two metrics are chosen, pearson correlation and the coefficient of determination $R^2$. The examples demonstrate that the offline results look fine, better than the results reproted in Victor Mangeleer's work, where $R^2$ is always lower than 0.5. The results also look slightly better than the CNNs if they are trained on the same datasets. 
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/20260621v1_layer0_plot.png)
 
+## 1.4 Online Testing
+
+We first conducted online tests using only three different initial conditions in the testset, with each simulation integrated for 10 years. 
+
+The results indicate that all three runs remained numerically stable throughout the entire integration period. The evolution of the correlation coefficient with respect to the reference numerical simulation closely resembles the behavior reported in Feier's paper. For long-term statistical properties, the PDF of the PVs obtained from the FNO simulations is in good agreement with that of the numerical model. This result appears to be superior to that reported for CNN-based approaches although the size of the ensemble is still small. This may imply that FNO can better preserves PV conservation. 
