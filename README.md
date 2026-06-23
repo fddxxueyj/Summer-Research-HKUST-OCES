@@ -4,7 +4,7 @@
 
 ### 1.1 Hyperparamters
 
-The model is implemented using the NeuralOperator library. A key hyperparameter for this dataset is the truncation mode, which is set to 48. Given that the input data have a spatial resolution of $64 \times 64$, this relatively large truncation mode enables the model to capture high-wavenumber information associated with the subgrid-scale terms. This setting is further supported by the spectra of the trained Fourier layers. In particular, the first Fourier layer assigns the largest weights to the high-wavenumber modes.
+The model is implemented using the `NeuralOperator` library. A key hyperparameter for this dataset is the truncation mode, which is set to 48. Given that the input data have a spatial resolution of $64 \times 64$, this relatively large truncation mode enables the model to capture high-wavenumber information associated with the subgrid-scale terms. This setting is further supported by the spectra of the trained Fourier layers. In particular, the first Fourier layer assigns the largest weights to the high-wavenumber modes.
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/spectral_weights.png)
 
