@@ -28,3 +28,9 @@ The results indicate that all three runs remained numerically stable throughout 
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/pdf.png)
 
+
+
+# Reference
+
+Yan, F. E., & Mak, J. (2025). Data collection for online learning in two-layer quasi-geostrophic model ver.2 [Dataset]. https://doi.org/10.5281/zenodo.15244460
+Mangeleer, V., & Louppe, G. (2023). Robust ocean subgrid-scale parameterizations using Fourier neural operators. arXiv preprint arXiv:2310.02691.
