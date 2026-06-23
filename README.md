@@ -26,3 +26,5 @@ We first conducted online tests using only three different initial conditions in
 
 The results indicate that all three runs remained numerically stable throughout the entire integration period. The evolution of the correlation coefficient with respect to the reference numerical simulation closely resembles the behavior reported in Feier's paper. For long-term statistical properties, the PDF of the PVs obtained from the FNO simulations is in good agreement with that of the numerical model. This result appears to be superior to that reported for CNN-based approaches although the size of the ensemble is still small. This may imply that FNO can better preserves PV conservation. 
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/pdf.png)
+
