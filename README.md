@@ -14,7 +14,7 @@ The first 295 runs in `train.nc` are used for training, while the remaining 5 ru
 
 ## 1.3 Offline Testing
 
-Two metrics are chosen, pearson correlation and the coefficient of determination $R^2$. The examples demonstrate that the offline results look fine, better than the results reproted in Victor Mangeleer's work, where the $R^2$ for FNO predictions is always lower than 0.5. The results also look slightly better than the CNNs if they are trained on the same datasets. 
+Two metrics are chosen, pearson correlation and the coefficient of determination $R^2$. The examples demonstrate that the offline results look fine, better than the results reproted in Victor Mangeleer's work, where the $R^2$ for FNO predictions is always lower than 0.5. The results also look slightly better than the CNNs if the models are trained on the same dataset. 
 
 ![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/20260621v1_layer0_plot.png)
 
