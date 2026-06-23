@@ -10,5 +10,10 @@ The model is constructed based on the library `NeuralOperator`. The key hyperpar
 
 ## 1.2 Training Stretagy
 
-The first 295 runs are chosen as the training dataset and the last 5 runs are the testing dataset. We only use the numerical results after 3-years iteration in order to ensure the flow fully develops into eddy state. The experiments have shown that if the data in the developing state are contained into the training set, the FNO cannot be trained, which is quit different from training CNN. The approach is in line with Victor Mangeleer's work, where he train the 
+The first 295 runs are chosen as the training dataset and the last 5 runs are the testing dataset. We only use the numerical results after 3-years iteration in order to ensure the flow fully develops into eddy state. The experiments have shown that if the data in the developing state are contained in the training set, the FNO cannot be trained, which is quit different from training CNN. The approach is similar to Victor Mangeleer's work, where `'Sampling begins after the system has achieved a quasi-steady state solution, which takes 4 years for eddy-driven flows and 6 years for jet-driven flows.'` 
+
+## 1.3 Offline Testing
+
+Two metrics are chosen, pearson correlation and the coefficient of determination $R^2$. 
+
 
