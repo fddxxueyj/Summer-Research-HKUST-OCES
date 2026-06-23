@@ -1,4 +1,4 @@
-# Summer-Research-HKUST-OCES
+# FNO-in-eddy-parameterization
 
 ## 1. Offline learning
 
@@ -22,4 +22,7 @@ Two metrics are chosen, pearson correlation and the coefficient of determination
 
 We first conducted online tests using only three different initial conditions in the testset, with each simulation integrated for 10 years. 
 
+![alt text](https://raw.githubusercontent.com/fddxxueyj/Summer-Research-HKUST-OCES/main/results/comparison_layer0.gif)
+
 The results indicate that all three runs remained numerically stable throughout the entire integration period. The evolution of the correlation coefficient with respect to the reference numerical simulation closely resembles the behavior reported in Feier's paper. For long-term statistical properties, the PDF of the PVs obtained from the FNO simulations is in good agreement with that of the numerical model. This result appears to be superior to that reported for CNN-based approaches although the size of the ensemble is still small. This may imply that FNO can better preserves PV conservation. 
+
